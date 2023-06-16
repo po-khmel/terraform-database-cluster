@@ -1,8 +1,8 @@
 variable "database_image" {
   type = map(any)
   default = {
-    "name" = "Ubuntu 20.04 - GARR"
-    "id"   = "a1b1155b-6844-4356-b77e-ce9f21087643"
+    "name" = "rocky 9 GA-test"
+    "id"   = "296dc930-10ee-47c5-9d5f-2014d4fb8bbf"
   }
 }
 
