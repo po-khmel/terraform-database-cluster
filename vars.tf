@@ -35,7 +35,7 @@ variable "public_key" {
   type = map(any)
   default = {
     name       = "db_cluster"
-    public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDEgz4Q2Iy6rwmn2ol7gtRN7tcMyk7E8Q3Grrlyf+ck/E6Ik7GxIGnnAhBvlOF9drbuy7tUI3BpDl4+PHtL0ls3x0+GO/MOfb/YB+aww9C7n1TaXIsMoYYegxNRen+3Mnvze2CGFibjRcDiG+oy3X9ijkItF+NByl/fidzd8NRi49jHr3/LVJ1SR2uo3HFELlkaW7vWVw/u/QcApYSkm00VvUroafBgMlZr821/d076fqXDJMtRTf1Oggt7+k6jzTmQmKspEBh8zB29YAcQa24VgTLJ5mYyRJX+kqJE/Madoph2+obNmxm6CpmCjm9IuxigAD8yH/1pcwy2Yz8Bq61D Generated-by-Nova"
+    public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDEAEXE3T+ReOl9uT7RQBwa7oUM99IcHwoZ93XqhuNoDqqKcGt4n92Ko7tKEYO4s6vC864h3U6U/DYr4zEAHudvhTo0/Jd5IHzV/EnJW62Y+WhZ7vDQSqgQTXLrBZFOCaTpI3VjTHrqcNByBSFeRwlPWLYq+VpFANh0seW5EQYxifjku3sC/NJLBUGsKykMiXvB7XEFiQxbfmtF2WOjb3sj9gvHxxhZHma0hpJR5iHy64nuZQ5ROz8io7H9eSjpCYQWOl83z9nM6fGO5rBbq4hsjDR8DUMK8yriVcASgEdSvsOmF2SyAUS9BHqST0F+ypBKjRNH6sUK9kEWuSIGgl47 centos@pulsar-control-vm.garr.cloud.pa"
   }
 }
 
