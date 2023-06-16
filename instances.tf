@@ -4,7 +4,7 @@ resource "openstack_compute_instance_v2" "instances" {
   image_name      = var.database_image.name
   flavor_name     = var.flavors.database
   key_pair        = openstack_compute_keypair_v2.database_cluster.name
-  security_groups = ["public-ssh", "	private-database"]
+  security_groups = ["public-ssh", "private-database"]
 
   network {
     name = var.private_network.name
