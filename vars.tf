@@ -1,8 +1,8 @@
 variable "database_image" {
   type = map(any)
   default = {
-    "name" = "Ubuntu Server 20.04 LTS (Focal Fossa)"
-    "id"   = "0f22f335-8175-4e68-b730-44b8d2c1973d"
+    "name" = "Ubuntu 20.04 - GARR"
+    "id"   = "a1b1155b-6844-4356-b77e-ce9f21087643"
   }
 }
 
