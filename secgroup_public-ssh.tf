@@ -1,6 +1,6 @@
 resource "openstack_networking_secgroup_v2" "public-ssh" {
-  name                 = "public-ssh"
-  description          = "[tf] Allow SSH connections from anywhere"
+  name        = "public-ssh"
+  description = "[tf] Allow SSH connections from anywhere"
 }
 
 resource "openstack_networking_secgroup_rule_v2" "public-ssh_rule1" {
