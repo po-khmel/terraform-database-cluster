@@ -1,8 +1,8 @@
 variable "database_image" {
   type = map(any)
   default = {
-    "name" = "rocky 9 GA-test"
-    "id"   = "296dc930-10ee-47c5-9d5f-2014d4fb8bbf"
+    "name" = "RockyLinux-9 - GARR"
+    "id"   = "1c88a8c6-f77d-495e-9eb0-98eff5f3d9cb"
   }
 }
 
