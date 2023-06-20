@@ -1,1 +1,1 @@
-### Test infrastrusture for PostgreSQL DB cluster
+### Test infrastructure for PostgreSQL DB cluster
